@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: system-ui, sans-serif;
+  color-scheme: light dark;
+  color: white;
+  background-color: #242424;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: black;
+    background-color: white;
+  }
+}
