@@ -17,8 +17,6 @@ i18n.use(initReactI18next).init({
   interpolation: { escapeValue: false },
 });
 
-export default i18n;
-
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <App />

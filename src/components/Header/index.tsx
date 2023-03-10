@@ -1,13 +1,10 @@
 import classNames from "classnames-ts";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import i18n from "../../main";
 import { languages } from "../../utils";
 import { Language } from "../../utils/enums";
 import { Logo } from "../Icons";
 import "./style.scss";
-
-const defaultId = Language.English;
 
 const Header = () => {
   const { i18n, t } = useTranslation();
